@@ -96,7 +96,7 @@ Frontend local → [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🌐 Deploy em Produção
+## 🌐 Deploy em Produção(Basicamente o Fluxo que eu fiz.)
 
 * **Frontend**: [Vercel](https://pr-tico-auto-u-front-h66duebh8-guissxs-projects.vercel.app/) → conectar repositório `frontend/`
 * **Backend**:
@@ -149,4 +149,5 @@ curl -X POST "http://localhost:8000/classify?provider=openai" \
 📌 Projeto para estudo de **IA Generativa + NLP + Web Fullstack**
 
 ---
+
 
