@@ -146,8 +146,9 @@ curl -X POST "http://localhost:8000/classify?provider=openai" \
 ---
 
 👨‍💻 **Autor**: Gustavo Ferreira Cabral
-📌 Projeto para estudo de **IA Generativa + NLP + Web Fullstack**
+📌 Projeto de **IA Generativa + NLP + Web Fullstack**
 
 ---
+
 
 
