@@ -1,9 +1,3 @@
-﻿# Pratico-AutoU
----
-
-# 📘 README.md
-
-```markdown
 # 📧 Classificador Inteligente de E-mails
 
 Projeto de IA que classifica e responde e-mails automaticamente:
@@ -27,20 +21,18 @@ O sistema utiliza **FastAPI (backend)** + **Next.js (frontend)** com suporte a *
 ## 📂 Estrutura do Projeto
 
 ```
-
-/backend
-└── src/
-├── app.py              # Endpoints FastAPI
-├── services/           # Serviços de NLP e classificação
-└── preprocessingService.py
-└── replyService.py
-/frontend
-└── src/
-├── app/                # App Router (Next.js 14)
-├── components/         # UploadForm
-
-
-````
+Pratico-AutoU/
+├── backend/
+│   └── src/
+│       ├── app.py              # Endpoints FastAPI
+│       ├── services/           # Serviços de NLP e classificação
+│       ├── preprocessingService.py
+│       └── replyService.py
+└── frontend/
+    └── src/
+        ├── app/                # App Router (Next.js 14)
+        └── components/         # UploadForm
+```
 
 ---
 
@@ -50,7 +42,7 @@ O sistema utiliza **FastAPI (backend)** + **Next.js (frontend)** com suporte a *
 ```bash
 git clone https://github.com/guissx/Pratico-AutoU.git
 cd Pratico-AutoU
-````
+```
 
 ### 2. Backend (FastAPI)
 
@@ -106,9 +98,8 @@ Frontend local → [http://localhost:3000](http://localhost:3000)
 
 ## 🌐 Deploy em Produção
 
-* **Frontend**: [Vercel]([https://vercel.com/](https://pr-tico-auto-u-front-h66duebh8-guissxs-projects.vercel.app/)) → conectar repositório `frontend/`
+* **Frontend**: [Vercel](https://pr-tico-auto-u-front-h66duebh8-guissxs-projects.vercel.app/) → conectar repositório `frontend/`
 * **Backend**:
-
   * [Render](https://render.com/), [Railway](https://railway.app/) ou AWS EC2
   * Configure variáveis de ambiente no painel de deploy
   * Exponha a API (ex: `https://seu-backend.com/classify`)
@@ -157,9 +148,5 @@ curl -X POST "http://localhost:8000/classify?provider=openai" \
 👨‍💻 **Autor**: Gustavo Ferreira Cabral
 📌 Projeto para estudo de **IA Generativa + NLP + Web Fullstack**
 
-```
-
 ---
-
-```
 
