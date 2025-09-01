@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+transformers
+torch
+pypdf
+nltk
+python-dotenv
